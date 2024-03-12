@@ -1,0 +1,41 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#app > h1{
+    color: #996dff;
+    margin-top: -5px;
+}
+
+#app > img{
+    width: 64px;
+}
+
+#app > h2{
+    aling-self: flex-start;
+    margin-top: 80px;
+    width: 512px
+}
+
+#p-container {
+    border: none;
+    border-radius: 5px;
+    height: 250px;
+    background-color: #202024;
+}
+
+#p-container > p{
+    margin-top: 5px;
+
+    aling-self: flex-start;
+    text-align: justify;
+    width: 512px;
+    padding: 10px;
+}
+
+#app .placeholder{
+    color: #7c7c8a;
+    user-select: none;
+}
