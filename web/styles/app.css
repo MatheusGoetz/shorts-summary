@@ -9,17 +9,14 @@
     margin-top: -5px;
 }
 
-#app > img{
-    width: 64px;
-}
-
 #app > h2{
     aling-self: flex-start;
-    margin-top: 80px;
+    margin-top: 64px;
     width: 512px
 }
 
 #p-container {
+    margin-top: -5px;
     border: none;
     border-radius: 5px;
     height: 250px;
@@ -27,7 +24,7 @@
 }
 
 #p-container > p{
-    margin-top: 5px;
+    margin-top: 3px;
 
     aling-self: flex-start;
     text-align: justify;
