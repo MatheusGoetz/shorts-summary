@@ -8,7 +8,7 @@ app.use(cors());
 
 app.get('/summary/:id', (req, res) => {
     download(req.params.id);
-    res.send('ID do vídeo: ' + req.params.id);
+    res.json({ result: "Download do shorts realizado com sucesso!" })
 });
 
 app.listen(3333, () => console.log('Server is running on port 3333'));
